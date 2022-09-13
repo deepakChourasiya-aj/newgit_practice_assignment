@@ -1,14 +1,14 @@
 
 // cheking palindrom 
 let str = 'deepak';
-//writing wrong intentionally for assignment ;;
-let newstr = ''
+
+let newstr =''
 for(let i=0;i<=str.length;i++){
    newstr+= str[i];
 }
 
 if(str==newstr){
-    console.log('Palindrom')
+    console.log('not Palindrom');
 }else{
-    console.log('not palindrom')
+    console.log('palindrom');
 }
