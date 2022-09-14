@@ -3,12 +3,12 @@
 let str = 'deepak';
 
 let newstr =''
-for(let i=0;i<=str.length;i++){
+for(let i=str.length-1;i>=0;i++){
    newstr+= str[i];
 }
 
 if(str==newstr){
-    console.log('not Palindrom');
+    console.log('Palindrom');
 }else{
-    console.log('palindrom');
+    console.log('not palindrom');
 }
